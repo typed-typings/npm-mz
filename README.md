@@ -11,7 +11,13 @@ typings install --save mz
 ## Usage
 
 ```ts
+import * as fs from 'mz/fs';
 
+async function doSomething() {
+    if (await fs.exists(__filename)) {
+        // whatever
+    }
+}
 ```
 
 [More examples](./test)
