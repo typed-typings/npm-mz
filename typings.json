@@ -1,0 +1,9 @@
+{
+  "name": "mz",
+  "version": "2.4.0",
+  "homepage": "https://github.com/types/npm-mz",
+  "main": "index.d.ts",
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160902022231"
+  }
+}

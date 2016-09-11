@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "noImplicitAny": true,
+    "module": "commonjs"
+  },
+  "files": [
+    "fs.ts",
+    "readline.ts",
+    "bundle.d.ts",
+    "../typings/index.d.ts"
+  ]
+}
