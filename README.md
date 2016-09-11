@@ -25,7 +25,3 @@ async function doSomething() {
 
 ## Contributing
 You can run them the tests with `npm run build` and `npm run test`.
-
---------------------------------
-
-_Based on typings by [](https://github.com/)_
