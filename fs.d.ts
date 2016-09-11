@@ -57,11 +57,6 @@ export function writeFile(filename: string, data: any, options: { encoding?: str
 export function appendFile(filename: string, data: any, options: { encoding?: string; mode?: number; flag?: string; }): Promise<void>;
 export function appendFile(filename: string, data: any, options: { encoding?: string; mode?: string; flag?: string; }): Promise<void>;
 export function appendFile(filename: string, data: any): Promise<void>;
-export function watchFile(filename: string, listener: (curr: Stats, prev: Stats) => void): void;
-export function watchFile(filename: string, options: { persistent?: boolean; interval?: number; }, listener: (curr: Stats, prev: Stats) => void): void;
-export function unwatchFile(filename: string, listener?: (curr: Stats, prev: Stats) => void): void;
-export function watch(filename: string, listener?: (event: string, filename: string) => any): FSWatcher;
-export function watch(filename: string, options: { persistent?: boolean; }, listener?: (event: string, filename: string) => any): FSWatcher;
 export function exists(path: string | Buffer): Promise<boolean>;
 export function access(path: string | Buffer): Promise<void>;
 export function access(path: string | Buffer, mode: number): Promise<void>;
