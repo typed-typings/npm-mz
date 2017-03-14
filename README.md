@@ -1,4 +1,6 @@
 # Typed mz
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-mz.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-mz.svg?branch=master)](https://travis-ci.org/types/npm-mz)
 
 Typescript Typings for [mz](https://www.npmjs.com/package/mz).
